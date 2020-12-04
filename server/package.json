@@ -1,0 +1,32 @@
+{
+  "name": "fork-collect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "server": "nodemon src/server.js",
+    "develop": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "handlebars-paginate": "^0.1.0",
+    "jw-paginate": "^1.0.4",
+    "mongoose": "^5.10.10",
+    "nodemon": "2.0.4"
+  },
+  "proxy": "http://localhost:5000"
+}

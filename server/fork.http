@@ -1,0 +1,13 @@
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+  "username": "Max4",
+  "email": "max4@gmail.com",
+  "pass": "max4",
+  "repass": "max4"
+}
+
+###
+GET http://localhost:5000/show-forks
+Accept: application/json
